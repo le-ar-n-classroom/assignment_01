@@ -3,8 +3,8 @@
 
 Fill in the missing code in the Python files with the following exercises:
 
-1. write a program loop that multiplies all items in a given list
-2. write a program loop to get a list sorted in increasing order by the last element in each tuple from a given list of tuples.
-3. write a code that generates a nested list with point coordinates to generate a point grid in rhino
-4. write a function that returns the largest number from an input list
-5. generate x starpolygons and find the one with the largest area
+1. Write a program loop that multiplies all items in a given list
+2. Write a program to sort a given list, sort based on the last element in each tuple in increasing order.
+3. Write a code that generates a nested list with 3d point coordinates to generate a 2D XY point grid
+4. Write a function that returns the largest number from an input list
+5. Write a Polyline class that uses the Point3d class and can return the length of the polyline
