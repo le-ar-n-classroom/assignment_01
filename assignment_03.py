@@ -5,16 +5,15 @@ Expected result: list_points = [[x1,y1], [x1,y2],...[xn,yn]]
 """
 import matplotlib.pyplot as plt
 
-def display_pt(list_points):
-    for l in list_points:
-        for p in l:
-            plt.plot(p[0],p[1],'bo')
-
 x_size = 10
 y_size = 6
 
 list_points = []
 ### insert code here
+
+def display_pt(list_points):
+    for pt in list_points:
+        plt.plot(pt[0],pt[1], 'bo')
 
 plt.figure()
 display_pt(list_points)
