@@ -16,7 +16,7 @@ class Point3d():
         self.x = x
         self.y = y
         self.z = z
-    @property()
+    @property
     def data(self):
         return (x,y,z)
 
